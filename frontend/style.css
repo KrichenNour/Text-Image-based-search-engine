@@ -1,0 +1,41 @@
+/* Modern, clean tweaks for Streamlit UI */
+:root {
+	--primary: #4f46e5; /* indigo-600 */
+	--muted: #64748b;   /* slate-500 */
+}
+
+.block-container {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+h1, h2, h3, h4 {
+	color: #111827; /* gray-900 */
+}
+
+.stButton>button, .stDownloadButton>button {
+	background: var(--primary);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 0.6rem 1rem;
+}
+
+.stButton>button:hover, .stDownloadButton>button:hover {
+	filter: brightness(0.95);
+}
+
+/* Images */
+img {
+	border-radius: 10px;
+}
+
+/* Caption and meta text */
+.stCaption, .st-emotion-cache-7ym5gk { /* class names may vary across versions */
+	color: var(--muted) !important;
+}
+
+/* Status widget compact */
+.stStatus {
+	border-radius: 8px !important;
+}
