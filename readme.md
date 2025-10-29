@@ -66,7 +66,7 @@ Results (ranked by similarity score)
 
 ```bash
 # 1. Clone
-git clone https://github.com/dhouib-akram/Text-Image-based-search-engine.git
+git clone https://github.com/KrichenNour/Text-Image-based-search-engine.git
 cd Text-Image-based-search-engine
 
 # 2. Virtual env
